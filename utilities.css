@@ -1,0 +1,33 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Sora", serif;
+}
+
+.section-max-width {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+/* Mobile Responsive Media */
+@media screen and (max-width: 640px) {
+  /* media for navbar */
+  nav {
+    border-bottom: 2px solid #179800;
+  }
+  #large-nav {
+    display: none;
+  }
+  #mobile-nav {
+    display: block;
+  }
+  #promo-card {
+    height: 400px;
+  }
+}
